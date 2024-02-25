@@ -1,0 +1,311 @@
+.animation-2 {
+      display: block;
+      position: relative;
+      margin: 0 auto;
+      width: 100wv;
+      height: 100px;
+  }
+
+  .animation-line {
+      margin: 200px auto;
+      text-align: center;
+      height: 100px;
+  }
+
+  .line {
+      text-align: center;
+      position: relative;
+      display: inline-block;
+      height: 0px;
+      width: 0px;
+      vertical-align: middle;
+      background-color: rgb(218, 0, 211);
+      margin-left: 15px;
+      animation-name: load;
+      animation-timing-function: ease-in-out;
+      animation-duration: 0.6s;
+      animation-iteration-count: infinite;
+  }
+
+  .line1 {
+      margin-left: 0;
+  }
+
+  @keyframes load {
+
+      0% {
+          height: 50px;
+          width: 5px;
+        background-color: rgb(22, 136, 230);      }
+
+      50% {
+          height: 100px;
+          background-color: rgba(0, 68, 255, 0.941);
+      }
+
+      100% {
+          height: 50px;
+          width: 5px;
+          background-color: rgb(134, 0, 218);
+      }
+  }
+
+  .line1 {
+      animation-delay: 1s;
+  }
+
+  .line2 {
+      animation-delay: 1.05s;
+  }
+
+  .line3 {
+      animation-delay: 1.1s;
+  }
+
+  .line4 {
+      animation-delay: 1.15s;
+  }
+
+  .line5 {
+      animation-delay: 1.2s;
+  }
+
+  .line6 {
+      animation-delay: 1.25s;
+  }
+
+  .line7 {
+      animation-delay: 1.3s;
+  }
+
+  .line8 {
+      animation-delay: 1.35s;
+  }
+
+  .line9 {
+      animation-delay: 1.4s;
+  }
+
+  .line10 {
+      animation-delay: 1.45s;
+  }
+
+  .line11 {
+      animation-delay: 1.5s;
+  }
+
+  .line12 {
+      animation-delay: 1.55s;
+  }
+
+  .line13 {
+      animation-delay: 1.60s;
+  }
+
+  .line14 {
+      animation-delay: 1.65s;
+  }
+
+  .line15 {
+      animation-delay: 1.7s;
+  }
+
+  .line16 {
+      animation-delay: 1.75s;
+  }
+
+  .line17 {
+      animation-delay: 1.8s;
+  }
+
+  .line18 {
+      animation-delay: 1.85s;
+  }
+
+  .line19 {
+      animation-delay: 1.9s;
+  }
+
+  .line20 {
+      animation-delay: 1.95s;
+  }
+
+  .line21 {
+      animation-delay: 2s;
+  }
+
+  .line22 {
+      animation-delay: 2.1s;
+  }
+
+  .line23 {
+      animation-delay: 2.15s;
+  }
+
+  .line24 {
+      animation-delay: 2.2s;
+  }
+
+  
+ .line25 {
+     animation-delay: 2.25s;
+ }
+
+ .line26 {
+     animation-delay: 2.3s;
+ }
+
+ .line27 {
+     animation-delay: 2.35s;
+ }
+
+ .line28 {
+     animation-delay: 2.4s;
+ }
+
+ /* .line29 {
+     animation-delay: 2.45s;
+ }
+
+ .line30 {
+     animation-delay: 2.5s;
+ }
+
+ .line31 {
+     animation-delay: 2.5.5s;
+ }
+
+ .line32 {
+     animation-delay: 2.6s;
+ }
+
+ .line33 {
+     animation-delay: 2.65s;
+ }
+
+ .line34 {
+     animation-delay: 2.7s;
+ }
+
+ .line35 {
+     animation-delay: 2.75s;
+ }
+
+ .line36 {
+     animation-delay: 2.8s;
+ }
+
+ .line37 {
+     animation-delay: 2.85s;
+ }
+
+ .line38 {
+     animation-delay: 3.9s;
+ }
+
+ .line39 {
+     animation-delay: 3.95s;
+ }
+
+ .line40 {
+     animation-delay: 4s;
+ }
+
+ .line41{
+     animation-delay: 4.05s;
+ }
+
+ .line42 {
+     animation-delay: 4.1s;
+ }
+
+ .line43 {
+     animation-delay: 4.15s;
+ }
+
+ .line44 {
+     animation-delay: 4.2s;
+ }
+
+ .line45 {
+     animation-delay: 4.25s;
+ }
+
+ .line46 {
+     animation-delay: 4.3s;
+ }
+
+ .line47 {
+     animation-delay: 4.35s;
+ }
+
+ .line48 {
+     animation-delay: 4.4s;
+ }
+
+ .line49 {
+     animation-delay: 4.45s;
+ }
+
+ .line50 {
+     animation-delay: 4.5s;
+ }
+
+ .line51 {
+     animation-delay: 4.55s;
+ }
+
+ .line52 {
+     animation-delay: 4.6s;
+ }
+
+ .line53 {
+     animation-delay: 4.65s;
+ }
+
+ .line54 {
+     animation-delay: 4.7s;
+ }
+
+ .line55 {
+     animation-delay: 4.7s;
+ }
+
+ .line56 {
+     animation-delay: 4.8s;
+ }
+
+ .line57 {
+     animation-delay: 4.85s;
+ }
+ .line58 {
+     animation-delay: 4.9s;
+ }
+
+ .line59 {
+     animation-delay: 4.95s;
+ }
+
+ .line60 {
+     animation-delay: 5s;
+ }
+
+ .line61 {
+     animation-delay: 5.05s;
+ }
+
+ .line62 {
+     animation-delay: 5.1s;
+ }
+
+ .line63 {
+     animation-delay: 5.15s;
+ }
+
+ .line64 {
+     animation-delay: 5.2s;
+ }
+
+ .line65 {
+     animation-delay: 5.25s;
+ } */
